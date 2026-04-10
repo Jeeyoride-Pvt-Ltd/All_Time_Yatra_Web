@@ -31,7 +31,7 @@ const About = () => {
               We built this platform to build a trusted community network. By connecting verified drivers with passengers heading the same way, we are reshaping inter-city commuting to be not only affordable, but highly eco-friendly and deeply social.
             </p>
 
-            {/* Statistics */}
+          
             <div className="grid grid-cols-2 gap-8 border-t border-gray-100 pt-8">
               <div>
                 <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-dark to-gray-500 mb-2">5M+</p>
@@ -51,7 +51,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="grid grid-cols-2 gap-4 md:gap-6 relative z-10"
           >
-            {/* Back glowing orb */}
+            
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-full blur-[100px] -z-10"></div>
             
             <img 

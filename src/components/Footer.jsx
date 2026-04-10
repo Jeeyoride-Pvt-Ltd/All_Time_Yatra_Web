@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-dark text-white pt-20 pb-10 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top Call to Action */}
+      
         <div className="bg-gradient-to-r from-primary to-secondary rounded-3xl p-10 mb-16 text-center transform -translate-y-32 absolute left-4 right-4 sm:static sm:translate-y-0 sm:mx-0 shadow-2xl">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-white">Your journey starts here.</h2>
           <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">The All Time Yatra app is launching soon. Get ready to join thousands of travelers and drivers commuting smartly and affordably.</p>

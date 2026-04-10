@@ -38,7 +38,7 @@ const Features = () => {
 
   return (
     <section id="features" className="py-32 bg-dark relative overflow-hidden">
-      {/* Deep Space Premium Glowing Effects */}
+    
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDQwIEwgNDAgNDAgTCA0MCAwIiBmaWxsPSJub25lIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wMykiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-50"></div>
       <div className="absolute top-0 right-[10%] w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-primary/20 rounded-full blur-[100px] md:blur-[150px] pointer-events-none opacity-60"></div>
       <div className="absolute bottom-0 left-[10%] w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-secondary/10 rounded-full blur-[100px] md:blur-[150px] pointer-events-none opacity-60"></div>
@@ -63,7 +63,7 @@ const Features = () => {
               transition={{ duration: 0.6, delay: idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
               className="group relative"
             >
-              {/* Animated hover gradient border behind the card */}
+            
               <div className="absolute -inset-[1px] bg-gradient-to-br from-primary/50 via-secondary/10 to-transparent rounded-[2rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></div>
               
               <div className="relative h-full bg-[#182133]/80 backdrop-blur-2xl p-10 rounded-[2rem] border border-white/10 group-hover:border-white/20 transition-colors shadow-2xl">

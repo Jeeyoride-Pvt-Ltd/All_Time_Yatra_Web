@@ -5,13 +5,13 @@ import { Smartphone, Apple } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-[85vh] flex items-center pt-24 pb-16 overflow-hidden bg-[#FAFAFA]">
-      {/* Hyper-Premium Background Mesh Gradient */}
+    
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-[5%] -left-[5%] w-[40vw] h-[40vw] rounded-full bg-primary/10 mix-blend-multiply filter blur-[120px] opacity-70 animate-blob"></div>
         <div className="absolute top-[20%] -right-[5%] w-[35vw] h-[35vw] rounded-full bg-secondary/10 mix-blend-multiply filter blur-[120px] opacity-70 animate-blob animation-delay-2000"></div>
         <div className="absolute -bottom-[10%] left-[15%] w-[50vw] h-[50vw] rounded-full bg-accent/5 mix-blend-multiply filter blur-[130px] opacity-60 animate-blob animation-delay-4000"></div>
 
-        {/* Subtle grid overlay for structure */}
+        
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDQwIEwgNDAgNDAgTCA0MCAwIiBmaWxsPSJub25lIiBzdHJva2U9InJnYmEoMCwwLDAsMC4wMikiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-[0.03]"></div>
       </div>
 
@@ -65,9 +65,9 @@ const Hero = () => {
             transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="relative lg:ml-10 mt-16 lg:mt-10"
           >
-            {/* Extremely Premium Image Frame */}
+          
             <div className="relative animate-float rounded-[3rem] p-3 bg-gradient-to-br from-white/60 to-white/10 border border-white/60 shadow-[0_30px_80px_-20px_rgba(34,45,66,0.15)] backdrop-blur-3xl mx-auto max-w-[90%]">
-              {/* Outer Glowing Halo */}
+            
               <div className="absolute -inset-4 bg-gradient-to-tr from-primary/30 via-secondary/20 to-accent/30 rounded-[4rem] blur-3xl -z-10 opacity-70"></div>
 
               <img

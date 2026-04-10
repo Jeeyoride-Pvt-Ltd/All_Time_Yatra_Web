@@ -17,7 +17,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="bg-white p-10 md:p-16 rounded-[3rem] shadow-[0_30px_80px_-20px_rgba(34,45,66,0.15)] border border-gray-100 flex flex-col items-center group relative overflow-hidden"
         >
-          {/* Subtle gradient hover effect */}
+        
           <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
 
           <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-8 border border-primary/20 shadow-inner">

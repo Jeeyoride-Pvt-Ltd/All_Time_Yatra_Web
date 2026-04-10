@@ -5,7 +5,7 @@ import { CheckCircle2, XCircle } from 'lucide-react';
 const WhyChooseUs = () => {
   return (
     <section id="why-us" className="py-24 bg-dark text-white relative overflow-hidden">
-      {/* Background accents */}
+      
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50"></div>
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-secondary/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50"></div>
 
@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
-          {/* Traditional Way */}
+          
           <motion.div 
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -43,7 +43,6 @@ const WhyChooseUs = () => {
             </ul>
           </motion.div>
 
-          {/* All Time Yatra */}
           <motion.div 
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
