@@ -79,7 +79,7 @@ const Navbar = () => {
         <motion.div 
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 'auto' }}
-          className="md:hidden glass absolute top-full left-0 w-full flex flex-col items-center py-6 space-y-4 shadow-xl"
+          className="md:hidden bg-white border-t border-gray-100 absolute top-full left-0 w-full flex flex-col items-center py-8 space-y-6 shadow-[0_30px_60px_rgba(0,0,0,0.1)]"
         >
           {navLinks.map((link) => (
             <Link
