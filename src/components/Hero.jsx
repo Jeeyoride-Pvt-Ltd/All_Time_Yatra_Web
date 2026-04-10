@@ -37,15 +37,6 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-5 pt-2">
-              <button className="group relative bg-[#0B1120] text-white rounded-[2rem] py-4 px-8 font-semibold flex justify-center items-center gap-4 transition-transform duration-300 hover:scale-[1.03] overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-gray-700 to-gray-900 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <Apple size={30} className="relative z-10 text-white" />
-                <div className="flex flex-col items-start relative z-10 text-left">
-                  <span className="text-[10px] text-gray-400 font-medium uppercase tracking-widest leading-none mb-1">Download on the</span>
-                  <span className="text-xl leading-none font-bold">App Store</span>
-                </div>
-              </button>
-
               <button className="group relative rounded-[2rem] p-[2px] transition-transform duration-300 hover:scale-[1.03] shadow-[0_0_30px_rgba(239,185,134,0.3)] hover:shadow-[0_0_40px_rgba(206,133,75,0.4)]">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary via-secondary to-accent rounded-[2rem] opacity-80 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative bg-white rounded-[2rem] py-[14px] px-8 flex justify-center items-center gap-4 w-full h-full">
@@ -54,6 +45,15 @@ const Hero = () => {
                     <span className="text-[10px] text-gray-500 font-bold uppercase tracking-widest leading-none mb-1">GET IT ON</span>
                     <span className="text-xl leading-none font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Google Play</span>
                   </div>
+                </div>
+              </button>
+
+              <button className="group relative bg-[#0B1120] text-white rounded-[2rem] py-4 px-8 font-semibold flex justify-center items-center gap-4 transition-transform duration-300 hover:scale-[1.03] overflow-hidden shadow-2xl">
+                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-gray-700 to-gray-900 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <Apple size={30} className="relative z-10 text-white" />
+                <div className="flex flex-col items-start relative z-10 text-left">
+                  <span className="text-[10px] text-gray-400 font-medium uppercase tracking-widest leading-none mb-1">Download on the</span>
+                  <span className="text-xl leading-none font-bold">App Store</span>
                 </div>
               </button>
             </div>
