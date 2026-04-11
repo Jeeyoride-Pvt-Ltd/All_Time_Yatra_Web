@@ -4,40 +4,40 @@ import { motion } from 'framer-motion';
 const Gallery = () => {
   const images = [
     {
-      src: '/gallery_1.png',
-      alt: 'Scenic Drive',
-      title: 'Scenic Journeys',
-      description: 'Experience the beauty of the roads less traveled.'
-    },
-    {
-      src: '/gallery_2.png',
-      alt: 'Luxury Ride',
-      title: 'Comfort First',
-      description: 'Travel in style with our premium vehicle options.'
-    },
-    {
-      src: '/gallery_3.png',
-      alt: 'Happy Travelers',
-      title: 'Social Connections',
-      description: 'Meet new people and share memorable experiences.'
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      alt: 'Road Trip',
-      title: 'Adventure Awaits',
-      description: 'Life is a journey, make it an unforgettable one.'
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      alt: 'Coastal Road',
+      src: '/gallary1.jpeg',
+      alt: 'Scenic Travel',
       title: 'Reliable Rides',
-      description: 'Verified drivers and safe travel protocols.'
+      description: 'Your safety is our top priority on every journey.'
     },
     {
-      src: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      alt: 'City Skyline',
-      title: 'Urban Mobility',
-      description: 'Seamlessly navigate city-to-city commutes.'
+      src: '/gallary2.jpeg',
+      alt: 'Group Travel',
+      title: 'Community Driven',
+      description: 'Travel with people you can trust and build new connections.'
+    },
+    {
+      src: '/gallary3.jpeg',
+      alt: 'Comfort Travel',
+      title: 'Premium Comfort',
+      description: 'Experience a smooth ride in our vetted luxury vehicles.'
+    },
+    {
+      src: '/gallary4.jpeg',
+      alt: 'Efficient Travel',
+      title: 'Fast & Affordable',
+      description: 'Get to your destination without breaking the bank.'
+    },
+    {
+      src: '/gallary5.jpeg',
+      alt: 'Safe Travel',
+      title: 'Verified Drivers',
+      description: 'Professional and verified drivers for your peace of mind.'
+    },
+    {
+      src: '/gallary6.jpeg',
+      alt: 'Supportive Travel',
+      title: '24/7 Support',
+      description: 'We are here to help you at any time during your trip.'
     }
   ];
 
