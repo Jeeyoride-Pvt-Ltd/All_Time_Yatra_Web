@@ -5,8 +5,6 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-white pt-20 pb-10 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-      
         {/* Top Call to Action */}
         <div className="bg-gradient-to-r from-primary to-secondary rounded-3xl p-8 md:p-10 mb-16 text-center transform -mt-24 sm:-mt-32 relative z-10 shadow-2xl mx-0">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-white">Your journey starts here.</h2>
@@ -26,10 +24,10 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center mb-6">
-              <img 
-                src="/logo.png" 
-                alt="All Time Yatra Logo" 
-                className="h-24 w-24 object-contain bg-white rounded-3xl p-2 shadow-[0_0_20px_rgba(255,255,255,0.1)]" 
+              <img
+                src="/logo.png"
+                alt="All Time Yatra Logo"
+                className="h-24 w-24 object-contain bg-white rounded-3xl p-2 shadow-[0_0_20px_rgba(255,255,255,0.1)]"
               />
             </div>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
@@ -81,7 +79,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} All Time Yatra. All rights reserved.
+            {'\u00A9'} {new Date().getFullYear()} All Time Yatra. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,16 +1,89 @@
-# React + Vite
+# All Time Yatra Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Marketing website for All Time Yatra, built with React, Vite, Tailwind CSS v4, Framer Motion, and Lucide icons.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a single-page landing site for the All Time Yatra ride-sharing platform. It includes:
 
-## React Compiler
+- Hero section with product positioning and store CTA messaging
+- About, process, features, gallery, comparison, contact, and footer sections
+- Smooth section scrolling navigation
+- Motion-based entrance and hover animations
+- Static asset delivery through the Vite `public/` directory
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- Framer Motion
+- Lucide React
+- React Scroll
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+src/
+  components/
+    About.jsx
+    Contact.jsx
+    Features.jsx
+    Footer.jsx
+    Gallery.jsx
+    Hero.jsx
+    HowItWorks.jsx
+    Navbar.jsx
+    WhyChooseUs.jsx
+  App.jsx
+  index.css
+  main.jsx
+public/
+  logo.png
+  hero1.jpeg
+  about_1.png
+  about_2.png
+  gallary1.jpeg ... gallary6.jpeg
+```
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the dev server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+## Production Build
+
+Create the production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Deployment Notes
+
+- The production output is generated in `dist/`.
+- Static images are served from `public/` using root-relative paths like `/logo.png`.
+- If deploying under a subpath instead of a root domain, update the Vite base config before release.
+
+## Content Notes
+
+- Footer company/legal/support links are currently placeholder links.
+- Store CTA buttons currently present launch messaging and may need real store URLs when available.
+- Contact email is `alltimeyatrapvtltd@gmail.com`.
