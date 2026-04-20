@@ -14,8 +14,8 @@ function App() {
     <div className="bg-light min-h-screen font-sans text-dark overflow-x-hidden">
       <Navbar />
       <main>
-        {/* <Hero /> */}
-        {/* <About /> */}
+         <Hero /> 
+         <About />
         <HowItWorks />
         <Features />
         <Gallery />
