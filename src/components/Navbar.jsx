@@ -55,7 +55,7 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            {/* <Link
+             <Link
               to="contact"
               smooth={true}
               duration={500}
@@ -63,7 +63,7 @@ const Navbar = () => {
             >
               <Mail size={18} />
               Contact Us
-            </Link> */}
+            </Link> 
           </div>
 
           {/* Mobile Menu Button */}
